@@ -18,8 +18,4 @@ def home():
 
 @app.get('/get_data')
 async def get_data():
-    return {'body': 'Hello World from python fastapi'}
-
-if __name__ == '__main__':
-    import uvicorn
-    uvicorn.run(app)
+    return {'body': 'Hello World from python fastapi'}s
